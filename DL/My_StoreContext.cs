@@ -10,6 +10,9 @@
 //-Console
 //Install-Package Microsoft.EntityFrameworkCore.Tools -v 3.1.7
 
+//In StartUp:
+//services.AddDbContext<ManagerContext>(options => options.UseSqlServer(
+        //       "Server=mbyserver2\\pupils;Database=Manager;Trusted_Connection=True;"), ServiceLifetime.Scoped);
 
 
     
