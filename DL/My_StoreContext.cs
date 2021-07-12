@@ -1,4 +1,6 @@
-﻿using System;
+//PM> Scaffold-DbContext "Server=D1;Database=My_Store;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+using System;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
