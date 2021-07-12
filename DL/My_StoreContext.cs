@@ -1,5 +1,5 @@
 //PM> Scaffold-DbContext "Server=D1;Database=My_Store;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
-
+//asp.net ((עיגול שלם עם איקון כחול)
 using System;
 using Entities;
 using Microsoft.EntityFrameworkCore;
