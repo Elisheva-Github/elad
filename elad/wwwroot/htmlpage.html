@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="JavaScript.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+
+    <title></title>
+
+</head>
+<body>
+    <br />
+
+    <div id="newUser" style="visibility:hidden">
+        <br /><br /><br /><br />
+        <label>משתמש חדש </label>
+        <!--<hr style="height:5px;background-color:#ffffff" />-->
+        <br /><br />
+        <input id="email" type="text" placeholder="הכנס/י מייל" required />
+        <br /><br />
+        <input id="firstname" type="text" placeholder="הכנס/י שם פרטי" required />
+        <br /><br />
+        <input id="lastname" type="text" placeholder="הכנס/י שם משפחה" required />
+        <br /><br />
+        <input id="password" type="password" placeholder="הכנס/י סיסמא" required />
+        <br /><br />
+
+        <br /><br />
+        <button id="newUser" onclick="adduser()"> הרשמה</button>
+        <img id="111" src="Images/2020-06-08.gif" style="visibility:hidden" />
+
+        <br /><br />
+        <br /><br />
+    </div>
+
+
+    <div id="ExUser">
+        <label> משתמש קיים </label>
+        <!--<hr style="height:5px;background-color:#ffffff" />-->
+        <br /><br />
+        <input id="id" type="text" placeholder="הכנס/י מייל" required />
+        <br /><br />
+        <input id="pass" type="password" placeholder="הכנס/י סיסמא" required />
+        <br /><br />
+        <br /><br />
+
+        <button id="login" onclick="login()"> התחברות</button>
+        <button id="newUser" onclick="showDiv()">?משתמש חדש</button>
+
+        <br /><br />
+    </div>
+
+
+</body>
+</html>
